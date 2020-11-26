@@ -30,10 +30,10 @@ public class Usersimpl implements Usersinf {
       List li=thequery.list();
       Iterator it=li.iterator();
       if(li.size()>0) {
-    	  Object[]ob=(Object[]) it.next();
-    	  System.out.println(ob[0]);
-    	  System.out.println(ob[1]);
-    	  System.out.println(ob[2]);
+    	 // Object[]ob=(Object[]) it.next();
+    	  //System.out.println(ob[0]);
+    	//  System.out.println(ob[1]);
+    	//  System.out.println(ob[2]);
       }
       else {
     	  System.out.println("no records");
