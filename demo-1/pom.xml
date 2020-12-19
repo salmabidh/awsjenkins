@@ -10,13 +10,14 @@
 	</parent>
 	<groupId>com.engine.staysmart.iot</groupId>
 	<artifactId>jenkins</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1.RELEASE</version>
 	<packaging>war</packaging>
 	<name>demo-1</name>
 	<description>Demo project for Spring Boot through jenkins</description>
 
 	<properties>
 		<java.version>1.8</java.version>
+		
 	</properties>
 
 	<dependencies>
@@ -50,11 +51,7 @@
 		</dependency>
 		
 		<!-- https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
-<dependency>
-    <groupId>org.sonarsource.scanner.maven</groupId>
-    <artifactId>sonar-maven-plugin</artifactId>
-    <version>3.6.1.1688</version>
-</dependency>
+
 		
 
 		<dependency>
@@ -93,5 +90,19 @@
 			</plugin>
 		</plugins>
 	</build>
+	
+	<distributionManagement>
+	<repository>
+	<id>nexus-role</id>
+	<name>Internal Releases</name>
+	<url>http://52.77.222.67:8081/repository/weekned-Release/</url>
+	</repository>
+	
+	<snapshotRepository>
+	<id>nexus-role</id>
+	<name>Internal Releases</name>
+	<url>http://52.77.222.67:8081/repository/weekend-Snapshot/</url>
+	</snapshotRepository>
+	</distributionManagement>
 
 </project>
