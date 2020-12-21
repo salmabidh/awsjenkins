@@ -95,13 +95,13 @@
 	<repository>
 	<id>nexus-role</id>
 	<name>Internal Releases</name>
-	<url>http://52.77.222.67:8081/repository/weekned-Release/</url>
+	<url>http://13.250.43.32:8081/repository/weekend-Release/</url>
 	</repository>
 	
 	<snapshotRepository>
 	<id>nexus-role</id>
 	<name>Internal Releases</name>
-	<url>http://52.77.222.67:8081/repository/weekend-Snapshot/</url>
+	<url>http://13.250.43.32:8081/repository/weekend-snapshot/</url>
 	</snapshotRepository>
 	</distributionManagement>
 
