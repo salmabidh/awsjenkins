@@ -93,13 +93,13 @@
 	
 	<distributionManagement>
 	<repository>
-	<id>nexus-role</id>
+	<id>weekend</id>
 	<name>Internal Releases</name>
 	<url>http://13.250.43.32:8081/repository/weekend-Release/</url>
 	</repository>
 	
 	<snapshotRepository>
-	<id>nexus-role</id>
+	<id>weekend</id>
 	<name>Internal Releases</name>
 	<url>http://13.250.43.32:8081/repository/weekend-snapshot/</url>
 	</snapshotRepository>
