@@ -22,4 +22,10 @@ public class Controller {
 		return usersimpl.getuserdetails();
 		
 	}
+	
+	@GetMapping("/getproducts")
+	public List<User>getuserdetails2(){
+		return usersimpl.getuserdetails();
+		
+	}
 }
