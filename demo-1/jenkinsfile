@@ -1,0 +1,11 @@
+pipeline{
+    agent any
+    stages{
+        stage("git"){
+            steps{
+                git credentialsId: 'github', url: 'https://github.com/salmabidh/awsjenkins.git'
+            }
+            
+        }
+    }
+}
