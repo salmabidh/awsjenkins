@@ -9,7 +9,7 @@ pipeline{
         }
         stage("build-code"){
               steps{
-                 dir("/var/lib/jenkins/workspace/ci-cd-multi_developnment"){
+                 dir("/var/lib/jenkins/workspace/ci-cd-multi_developnment/demo-1"){
                  
                  sh "mvn clean package"
                  
