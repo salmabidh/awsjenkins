@@ -28,4 +28,8 @@ public class Controller {
 		return usersimpl.getuserdetails();
 		
 	}
+	@GetMapping("/hello")
+	public String hello() {
+		return "welcome to spring-boot-docker-image";
+	}
 }
