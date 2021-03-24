@@ -95,13 +95,13 @@
 	<repository>
 	<id>weekend</id>
 	<name>Internal Releases</name>
-	<url>http://13.250.43.32:8081/repository/weekend-Release/</url>
+	<url>http://3.239.241.58:8081/repository/jenkins-release/</url>
 	</repository>
 	
 	<snapshotRepository>
 	<id>weekend</id>
 	<name>Internal Releases</name>
-	<url>http://13.250.43.32:8081/repository/weekend-snapshot/</url>
+	<url>http://3.239.241.58:8081/repository/jenkins-snap/</url>
 	</snapshotRepository>
 	</distributionManagement>
 
